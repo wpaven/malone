@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customUI onLoad="Ribbon_Load" xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <ribbon>
+    <tabs>
+      <tab id="MyTab"
+           getVisible="MyTabInspector_GetVisible"
+           label="Malone">
+        <group label="Malone" id="Malone" autoScale="true">
+          <toggleButton id="MyButton"
+                  size="large"
+                  label="Malone"
+                  getPressed="IsTogglePressed"
+                  imageMso="HappyFace"
+                  onAction="TaskPaneToggle"/>
+        </group>
+      </tab>
+    </tabs>
+    <contextualTabs>
+      <tabSet idMso="TabSetAttachments">
+        <tab idMso="TabAttachments">
+          <group label="MyGroup" id="MyAttachmentGroup">
+            <button id="MyButtonAttachments"
+                    size="large"
+                    label="MyButtonAttachments"
+                    imageMso="Head"
+                    onAction="OnMyButtonClick" />
+          </group>
+        </tab>
+      </tabSet>
+    </contextualTabs>
+  </ribbon>
+  <contextMenus>
+    <contextMenu idMso="ContextMenuAttachments">
+      <button id="MyContextMenuAttachments"
+              imageMso="Head"
+              label="ContextMenuAttachments"
+              onAction="OnMyButtonClick" />
+    </contextMenu>
+   </contextMenus>
+</customUI>
+
+
