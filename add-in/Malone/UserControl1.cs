@@ -16,21 +16,22 @@ namespace Malone
     [ComVisible(true)]
     public partial class UserControl1 : UserControl
     {
-// private AddinConfiguration ac = AddinConfiguration.GetInstance();
+        private AddinConfiguration ac = AddinConfiguration.GetInstance();
         private string webUrl = "";
 
         public UserControl1()
         {
             InitializeComponent();
-// webUrl = ac.getWebURL();
+            webUrl = ac.getWebURL();
+            //MessageBox.Show("URL " + webUrl);
 
             webBrowser1.AllowWebBrowserDrop = false;
             webBrowser1.IsWebBrowserContextMenuEnabled = false;
             webBrowser1.WebBrowserShortcutsEnabled = false;
             webBrowser1.ObjectForScripting = this;
             //webBrowser1.ScriptErrorsSuppressed = true;
-            //webBrowser1.Navigate(webUrl);
-            webBrowser1.Navigate("http://localhost:8023/outlookSamples");
+            webBrowser1.Navigate(webUrl);
+            //webBrowser1.Navigate("http://localhost:8023/outlookSamples");
         }
 
         private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
@@ -105,7 +106,7 @@ namespace Malone
         public void addAttachment(string path, string title, string url, string user, string pwd)
         {//C:\Users\paven\AppData\Local\Temp
 
-
+           
             Outlook.Application myApplication = Globals.ThisAddIn.Application;
 
             //remove these two when we remove if

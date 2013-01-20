@@ -1,0 +1,46 @@
+body{
+	width:1000px;
+}
+
+.resize {
+    width: 100px;
+    height : auto;
+    
+    }
+
+.resize {
+    width: auto;
+    height : 200px;
+    
+} 
+
+.ML-hit-metadata {
+	margin-top: 0.25em;
+}
+.ML-hit-metadata li {
+	display: inline;
+	margin: 0 0.5;
+	font-size: 80%;
+}
+td.ML-thdr{
+       font-weight:bold;
+       font-size:7pt;
+}
+td.ML-td{
+	/*width: 100px;*/
+	/*padding: 2px 10px 2px 10px;*/
+	border-style: solid; 
+	border-width: 0px 40px 0px 0px;
+	background-color: white;
+        margin:2pt;
+
+}
+
+table.ML-table{
+	border-width: 2px 2px 2px 2px;
+	border-spacing: 2px;
+	border-style: outset outset outset outset;
+	border-collapse: separate;
+
+ }
+/*a.test:hover {text-decoration: underline; color: red;}*/

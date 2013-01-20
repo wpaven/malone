@@ -161,6 +161,7 @@
     can be found.
   -->
   <ItemGroup>
+    <Compile Include="AddinConfiguration.cs" />
     <Compile Include="OutlookComponents\OutlookExplorer.cs" />
     <Compile Include="OutlookComponents\OutlookInspector.cs" />
     <Compile Include="OutlookComponents\OutlookItem.cs" />

@@ -790,19 +790,19 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Malone"
         "ProductCode" = "8:{7BD60145-61BC-4216-B751-A3C1E4FBA647}"
-        "PackageCode" = "8:{A32F0B2E-B707-4DC7-A621-3D61EBE6FDF9}"
+        "PackageCode" = "8:{F0B4AB08-9670-45D9-AE17-2C5A7F545AAF}"
         "UpgradeCode" = "8:{2BC5AF0A-C239-4C70-9380-46A1631E5892}"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:2 Awesome Kids"
+        "Manufacturer" = "8:OsloDog"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:Malone"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:2 Awesome Kids"
+        "ARPCONTACT" = "8:OsloDog"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
@@ -950,6 +950,58 @@
                                 }
                                 "Values"
                                 {
+                                }
+                            }
+                        }
+                        "Values"
+                        {
+                        }
+                    }
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_7D54F69A6F01443BB7C29385FDDADC6A"
+                    {
+                    "Name" = "8:MaloneAddinConfiguration"
+                    "Condition" = "8:"
+                    "AlwaysCreate" = "11:FALSE"
+                    "DeleteAtUninstall" = "11:FALSE"
+                    "Transitive" = "11:FALSE"
+                        "Keys"
+                        {
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_A1109DB72D244BFB85EE8C0B84BE344C"
+                            {
+                            "Name" = "8:Malone"
+                            "Condition" = "8:"
+                            "AlwaysCreate" = "11:FALSE"
+                            "DeleteAtUninstall" = "11:FALSE"
+                            "Transitive" = "11:FALSE"
+                                "Keys"
+                                {
+                                }
+                                "Values"
+                                {
+                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_568E627C86A548E4BC1A32BEB221B577"
+                                    {
+                                    "Name" = "8:URL"
+                                    "Condition" = "8:"
+                                    "Transitive" = "11:FALSE"
+                                    "ValueTypes" = "3:1"
+                                    "Value" = "8:www.marklogic.com"
+                                    }
+                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_5ABC72F71EF048F2923ADB740ED7EAC7"
+                                    {
+                                    "Name" = "8:Upload"
+                                    "Condition" = "8:"
+                                    "Transitive" = "11:FALSE"
+                                    "ValueTypes" = "3:1"
+                                    "Value" = "8:utils/upload.xqy?uid="
+                                    }
+                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_E4426020C49E4C8A9CB745D4C5924920"
+                                    {
+                                    "Name" = "8:MTPEnabled"
+                                    "Condition" = "8:"
+                                    "Transitive" = "11:FALSE"
+                                    "ValueTypes" = "3:1"
+                                    "Value" = "8:true"
+                                    }
                                 }
                             }
                         }
